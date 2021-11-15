@@ -1,0 +1,23 @@
+{
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [100],
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#4C566A"
+    },
+    "workbench.colorTheme": "Nord",
+    "go.coverOnSave": false,
+    "go.coverageDecorator": {
+        "type": "gutter",
+        "coveredHighlightColor": "rgb(163, 190, 140, 0.5)",
+        "uncoveredHighlightColor": "rgb(191, 97, 106, 0.25)",
+        "coveredGutterStyle": "blockgreen",
+        "uncoveredGutterStyle": "blockred"
+    },
+    "go.coverOnSingleTest": true,
+    "go.testFlags": ["-v"],
+    "gopls": {
+        "build.buildFlags": ["-tags=integration"]
+    },
+}
