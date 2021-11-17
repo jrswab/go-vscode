@@ -20,4 +20,10 @@
     "gopls": {
         "build.buildFlags": ["-tags=integration"]
     },
+    "vim.commandLineModeKeyBindings": [
+        {
+            "before": ["W"],
+            "after": ["w"]
+        }
+    ]
 }
